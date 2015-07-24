@@ -1,0 +1,55 @@
+ul.my-image-gallery {
+	list-style-type: none;
+	text-align: left;
+}
+ul.my-image-gallery li {
+	width: 154px;
+	text-align: center;
+	min-height: 150px;
+	border: 1px solid #000;
+	list-style-type: none;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+	zoom: 1;
+	*display: inline;
+	_height: 100px;
+}
+ul.my-image-gallery li input.delImg {
+	display: inline;
+	/*float: left;*/
+}
+ul.my-image-gallery li label {
+	display: inline;
+}
+
+span.help-block-warning {
+	color: red;
+}
+#upload{
+	margin:10px 30px; padding:10px;
+	font-weight:bold; font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:140px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px;
+}
+.darkbg{
+	background:#ddd !important;
+}
+#status{
+	font-family:Arial; padding:5px;
+}
+ul#files{ list-style:none; padding:0; margin:0; }
+ul#files li{ padding:10px; margin-bottom:2px; width:200px; float:left; margin-right:10px;}
+ul#files li img{ max-width:160px; max-height:150px; }
+.success{}
+.error{ background:#f0c6c3; border:1px solid #cc6622; }
+.overdue {color: #ff0000;}
+.near-expiration {color: #ffff00;}
+.long-expiration {color: greenyellow;}

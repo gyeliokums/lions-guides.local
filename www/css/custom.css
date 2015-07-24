@@ -1,0 +1,221 @@
+img.random-index-banner-1170x160 {
+    width: 1170px;
+    height: 160px;
+    max-height: 160px;
+    min-height: 160px;
+}
+img.index-guide-image {
+    min-width: 170px;
+    max-width: 179px;
+    min-height: 160px;
+    max-height: 160px;
+}
+img.index-lion-image {
+    min-width: 270px;
+    max-width: 270px;
+    min-height: 160px;
+    min-height: 160px;
+}
+img.index-news-image {
+    min-width: 370px;
+    max-width: 370px;
+    min-height: 262px;
+    min-height: 262px;
+}
+img.index-articles-image {
+    min-width: 270px;
+    max-width: 270px;
+    min-height: 192px;
+    min-height: 192px;
+}
+article.box.country {
+	min-height: 40px;
+	height: 40px;
+	margin-bottom: 20px;
+	display: flex;
+}
+.box strong.guides-title-box{
+	//color: #fff;
+   font-size: 1.4667em;
+ // line-height: 1.25em;
+}
+.image-box  .box.image-fixed  {
+  max-width: 270px;
+  min-width: 270px;
+  width: 270px;
+  min-height: 455px;
+  height: 436px;
+  display: table;
+}
+
+.image-box .box.image-lion-fixed {
+  max-width: 270px;
+  min-width: 270px;
+  width: 270px;
+  min-height: 360px;
+  height: 360px;
+  display: table;
+  padding-bottom: 20px;
+}
+.image-box .box.image-lion-fixed  > .details {
+
+  min-height: 115px;
+  height: 115px;
+ // display: table;
+}
+.image-box .box.image-lion-fixed  > .details  a {
+	width: 100%;
+ //display: table-cell;
+ position: absolute; 
+ margin-bottom:0;
+ // vertical-align: bottom;
+    display: block;
+  top: 290px;
+}
+
+strong.guides-title-box{
+	//color: #fff;
+    line-height: 1.25em;
+   font-size: 1.3333em;
+   padding-left: 0px;
+ // line-height: 1.25em;
+}
+.faqs .question-list .panel .panel-title{
+	padding-left: 0px;
+}
+
+strong.guides-title-box a{
+	padding: 0px;
+}
+
+.global-map-area {
+/*32,33,36!s */
+	  width: 100%;
+	  height: 100%;
+	  //opacity: 0;
+	 // visibility: hidden;
+	  background-image: url("../images/sl42.jpg");
+	  background-color: rgba(0, 0, 0, 0);
+	  background-size: cover;
+	  background-position: 50% 50%;
+	  background-repeat: no-repeat;
+	}
+	.parallax {
+  /* background-attachment: fixed; */
+  /* background-position: 50% 0; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* overflow: hidden; */
+}
+.image-carousel.style2 .flex-direction-nav li a {
+	  background: #fdb714;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #00A67C;
+}
+b, strong {
+  color: #00A67C;
+}
+a:hover, a:focus {
+  color: #5DEABB;
+}
+#header .logo {
+  padding: 43px 0px 25px 14px;
+  text-align: left;
+  margin: 22px 0 0;
+  /* height: auto; */
+  }
+  .logo {
+  display: block;
+  height: 85px;
+  padding-top: 68px;
+  float: left;
+  /* margin-top: 68px; */
+  width: 350px;
+  background: url(../images/lionlogo.png) right top no-repeat;
+}
+/* Цветовая схема 
+RGB
+#057D9F, #00A67C, #025167, #5DEABB, #61B7CF
+*/
+#header.style1 {
+  //background: #057D9F;
+ // background: #218359;
+  //background: #04A470;
+  background: #00A67C;
+}
+.header-news {
+	font-size: 1.7em;
+	line-height: 1.2222em;
+}
+
+.description{
+	line-height: 1.1666;
+}
+
+.page-title-container .page-title .entry-title {
+  font-size: 1.222em;
+//    line-height: 28px;
+vertical-align: middle;
+ // font-size: 1.5em;
+ // display: inline;
+}
+h2 {
+  font-size: 1.4667em;
+  line-height: 1.25em;
+}
+.toggle-container .panel.style1 .panel-content {
+  padding: 0px 0px 0px 0px;
+}
+.content-details {
+  background: #fff;
+  padding: 10px 20px 10px;
+}
+.details p img {
+  margin: 0px 25px 0px 0px;
+  float: left;
+}
+.promo-block{
+	margin-left: 0px;
+  margin-right: 0px;
+  
+  }
+.promo-content{
+margin-bottom: 10px;
+}
+
+.image-box .articlies{
+  margin-bottom: 25px;
+}
+.image-box.style2 .details {
+  padding: 0px 10px 10px 280px;
+}
+.row.image-box.style2 figure {
+  width: 270px;
+}
+.toggle-container .panel.style1 .panel-title > a.collapsed:before {
+  background: #5DEABB;
+}
+.page-title-container {
+  /* height: 56px; */
+  background: #2d3e52;
+}
+.page-title-container {
+  height: 100%;
+}
+.news-title-box{  line-height: 1.25em;
+  font-size: 1.3333em;
+  padding-left: 0px;
+  color: #00A67C;
+  }
+.sm-link{
+	font-size: 1.1833em;
+	line-height: 1.8666;
+  }
+  .tab-container {
+  padding-bottom: 10px;
+}
+@media (max-width: 767px)
+	.breadcrumbs {
+	  display: block;
+}

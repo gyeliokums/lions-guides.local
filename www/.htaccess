@@ -1,0 +1,9 @@
+#DirectoryIndex 503.php
+RewriteEngine On
+RewriteBase /
+#Options +FollowSymlinks
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+##RewriteRule ^(.*) 503.php?%{QUERY_STRING}
+RewriteRule ^(.*) index.php?%{QUERY_STRING}

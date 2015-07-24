@@ -1,0 +1,168 @@
+.search-bottom {
+	box-shadow: 1px 1px 1px #bbb,
+				-1px 0 1px #bbb;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.newsletter input[type="email"],
+.count,
+.add-opening button,
+.widget,
+.paging a,
+input[type="reset"],
+input[type="submit"],
+input[type="button"].file,
+.settings-field .invalid:invalid,
+.settings-field input[type="text"],
+.settings-field input[type="email"],
+.settings-field input[type="password"],
+.settings-field textarea,
+.submit-request,
+.post-footer,
+.openings .opening-type p,
+p.opening-type,
+.opt-list,
+.select-header,
+.post-header,
+.post,
+.warning,
+.dark-label,
+.dark-label.full-time,
+.dark-label.contract,
+.dark-label.freelance,
+.dropdown,
+.search-bottom,
+.search-top,
+.search-button,
+.search-top input[type="text"],
+.sliderIndicator,
+.user-options {
+	behavior: url( 'js/PIE.htc' );
+}
+
+.dropdown {
+	box-shadow: none;
+	border: 1px solid #999;
+}
+
+.post,
+.widget {
+	box-shadow: 1px 1px 1px #bbb,
+				-1px -1px 1px #bbb;
+}
+
+.post-header, 
+.post-footer {
+	box-shadow: 0 1px 1px #eee;
+}
+
+.plus {
+	background: #000;
+	filter:alpha(opacity=20);
+}
+
+input[type="submit"] {
+	background: #8aba57;
+}
+
+input[type="submit"]:hover {
+	background: #6b9044;
+}
+
+input[type="reset"],
+input[type="button"].file {
+	background: #f1f1f1;
+}
+
+input[type="reset"]:hover,
+input[type="button"].file:hover {
+	background: #d2d2d2;
+}
+
+.submit-request {
+	background: #e16243;
+}
+
+.submit-request:hover {
+	background: #c5563b;
+}
+
+.search-button {
+	background: #e1ce44;
+}
+
+.search-button:hover {
+	background: #c9b83d;
+}
+
+.add-opening button {
+	background: #8cba59;
+}
+
+.add-opening button:hover {
+	background: #759b4b;
+}
+
+/* IE7 */
+.ie7 .site-nav li {
+	z-index: 110;
+}
+
+.ie7 .avatar {
+	right: 50px;
+}
+
+.ie7 .user-area {
+	z-index: 100;
+}
+
+.ie7 .user-area p {
+	position: relative;
+	top: -15px;
+}
+
+.ie7 .plus {
+	padding: 11px 17px;
+}
+
+.ie7 .paging li {
+	float: left;
+}
+
+.ie7 .newsletter input[type="text"] {
+	border: 1px solid #39b5cf;
+	border-radius: 4px;
+	behavior: url( 'js/PIE.htc' );
+	position: relative;
+	font: 13px "OpenSans";
+	color: #566266;
+	padding: 13px;
+	outline: none;
+	margin-bottom: 3px;
+	width: 170px;
+}
+
+.ie7 .newsletter input[type="text"]:focus {
+	box-shadow: 1px 1px 3px rgba( 57, 181, 207, 0.3 ),
+				-1px -1px 3px rgba( 57, 181, 207, 0.3 );
+	-webkit-box-shadow: 1px 1px 3px rgba( 57, 181, 207, 0.3 ),
+				-1px -1px 3px rgba( 57, 181, 207, 0.3 );
+}
+
+.ie7 .slide {
+	left: 0;
+}
+
+.ie7 .dark-label {
+	height: 20px;
+	width: 48px;
+	padding-left: 28px;
+	position: relative;
+}
+
+.ie7 .dark {
+	position: absolute;
+	left: 0px;
+	top: 2px;
+}
